@@ -133,10 +133,11 @@ public class AudioPlayerActivity extends AppCompatActivity implements View.OnCli
         }
         this.binding = (ActivityAudioPlayerBinding) DataBindingUtil.setContentView(this, R.layout.activity_audio_player);
 
-        applyDisplayCutouts();
-
-
-
+        applyDisplayCutouts();        //Reguler Banner Ads
+        RelativeLayout admob_banner2 = (RelativeLayout) findViewById(R.id.Admob_Banner_Frame);
+        LinearLayout adContainer2 = (LinearLayout) findViewById(R.id.banner_container);
+        FrameLayout qureka2 = (FrameLayout) findViewById(R.id.qureka);
+        AdsCommon.RegulerBanner(this, admob_banner2, adContainer2, qureka2);
 
 
         SetToolbar();

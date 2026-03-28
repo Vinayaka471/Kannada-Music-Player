@@ -1,4 +1,8 @@
 package com.kannada.musicplayer.ads;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+
 import android.app.Activity;
 import android.app.Application;
 import android.app.NotificationChannel;
@@ -16,7 +20,7 @@ public class MyApplication extends Application implements Application.ActivityLi
     public static SharedPreferences.Editor editorInApp;
 
     // Ad-related fields maintained for compatibility but with no-op values
-    public static String AdMob_Banner1 = "";
+    public static String AdMob_Banner1 = "ca-app-pub-3940256099942544/6300978111";
     public static String AdMob_Int1 = "";
     public static String AdMob_Int2 = "";
     public static String AdMob_NativeAdvance1 = "";
@@ -56,6 +60,12 @@ public class MyApplication extends Application implements Application.ActivityLi
 
         /*app code*/
         createNotificationChannel();
+
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
 
 
     }

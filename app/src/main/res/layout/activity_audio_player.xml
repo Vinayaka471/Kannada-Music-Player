@@ -289,9 +289,14 @@
         <RelativeLayout
             android:id="@+id/btm1"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="70dp"
             android:gravity="center"
             android:layout_alignParentBottom="true">
+
+            <include
+                android:id="@+id/reguler_banner_ad"
+                layout="@layout/ads_layout_banner"
+                android:visibility="visible" />
 
         </RelativeLayout>
 
