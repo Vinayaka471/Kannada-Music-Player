@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:gesture-image="http://schemas.polites.com/android">
+    <group
+        android:id="@+id/navigation_drawer_menu_category_sections"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/favourite"
+            android:icon="@drawable/iifavorite"
+            android:title="Favourite" />
+        <item
+            android:id="@+id/playlist"
+            android:icon="@drawable/iiplaylist"
+            android:title="Play List" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/iihistory"
+            android:title="History" />
+
+        <item android:visible="true" android:id="@+id/tools" android:title="Tools">
+            <menu>
+                <group android:checkableBehavior="none">
+                    <item
+                        android:id="@+id/videoplayer"
+                        android:icon="@drawable/iivideoplayer"
+                        android:title="Video Player" />
+                    <item
+                        android:id="@+id/musicplayer"
+                        android:icon="@drawable/iimusicplayer"
+                        android:title="Music Player" />
+                    <item
+                        android:id="@+id/nav_setting"
+                        android:icon="@drawable/iisetting"
+                        android:title="Setting" />
+                </group>
+            </menu>
+        </item>
+
+        <item android:visible="true" android:id="@+id/communication" android:title="Communication">
+            <menu>
+                <group android:checkableBehavior="none">
+                    <item
+                        android:id="@+id/nav_rate"
+                        android:icon="@drawable/iirate"
+                        android:title="Rate App" />
+                    <item
+                        android:id="@+id/nav_share"
+                        android:icon="@drawable/iishare"
+                        android:title="Share App" />
+                    <item
+                        android:id="@+id/nav_privacy"
+                        android:icon="@drawable/iipolicy"
+                        android:title="Privacy Policy" />
+                    <item
+                        android:id="@+id/nav_version"
+                        android:icon="@drawable/iiversion"
+                        android:title="Version 1.0" />
+                </group>
+            </menu>
+        </item>
+
+    </group>
+</menu>

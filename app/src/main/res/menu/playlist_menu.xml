@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_search" android:id="@+id/search" android:title="Search" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="never|always|collapseActionView"/>
+    <item android:icon="@drawable/ic_drag_up" android:id="@+id/draggable_up" android:title="Drag" app:showAsAction="always"/>
+    <item android:icon="@drawable/ic_drag_down" android:id="@+id/draggable_down" android:title="Drag" app:showAsAction="always"/>
+    <item android:icon="@drawable/ic_add_button" android:id="@+id/addItem" android:title="Add" app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:tag="layout/dialog_delete_0">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_18sdp"
+            app:cardBackgroundColor="@color/dialogBg"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_4sdp"
+                    android:background="@color/primarymain" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_10sdp">
+
+                    <TextView
+                        style="@style/BoldSmallTitle"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Are you Sure?" />
+
+                    <TextView
+                        style="@style/RegularSmall"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:text="Do you really want to delete these records?" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/dialogSec2"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingVertical="@dimen/_10sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/btnCancel"
+                            style="@style/dialogButton"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:foreground="?attr/selectableItemBackground"
+                            app:cardBackgroundColor="@color/cancelBtn">
+
+                            <TextView
+                                style="@style/BoldSmallTitle"
+                                android:layout_gravity="center"
+                                android:text="CANCEL" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/btnDelete"
+                            style="@style/dialogButton"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:foreground="?attr/selectableItemBackground"
+                            app:cardBackgroundColor="@color/primarymain"
+                            app:cardElevation="0dp">
+
+                            <TextView
+                                style="@style/BoldSmallTitle"
+                                android:layout_gravity="center"
+                                android:text="OK" />
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_centerHorizontal="true"
+            app:cardBackgroundColor="@color/primarymain"
+            app:cardCornerRadius="@dimen/_20sdp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/iidelete"
+                app:tint="@color/white" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</layout>
+

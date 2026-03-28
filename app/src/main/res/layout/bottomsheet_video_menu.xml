@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/BottomSheetMainLL"
+        android:tag="layout/bottomsheet_video_menu_0">
+
+        <androidx.cardview.widget.CardView style="@style/BottomSheetMainCard">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp">
+
+                <LinearLayout
+                    style="@style/BottomSheetDividerLL"
+                    android:layout_gravity="center_horizontal">
+
+                    <androidx.cardview.widget.CardView style="@style/BottomSheetDividerCard" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    style="@style/BoldSmallTitle"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:gravity="center" />
+
+                <LinearLayout
+                    android:id="@+id/llFavourite"
+                    style="@style/BottomItemLL"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp">
+
+                    <ImageView
+                        style="@style/BottomImageStyle"
+                        android:src="@drawable/favourite" />
+
+                    <TextView
+                        style="@style/BottomSheetText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="@string/add_to_favourite" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llUnFavourite"
+                    style="@style/BottomItemLL"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp">
+
+                    <ImageView
+                        style="@style/BottomImageStyle"
+                        android:src="@drawable/favourite" />
+
+                    <TextView
+                        style="@style/BottomSheetText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="@string/remove_from_favourite" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llPlaylist"
+                    style="@style/BottomItemLL"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp">
+
+                    <ImageView
+                        style="@style/BottomImageStyle"
+                        android:src="@drawable/add_playlist" />
+
+                    <TextView
+                        style="@style/BottomSheetText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="@string/add_to_playlist" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llRename"
+                    style="@style/BottomItemLL"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp">
+
+                    <ImageView
+                        style="@style/BottomImageStyle"
+                        android:tint="@color/white"
+                        android:src="@drawable/iirename" />
+
+                    <TextView
+                        style="@style/BottomSheetText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="@string/rename" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llShare"
+                    style="@style/BottomItemLL"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp">
+
+                    <ImageView
+                        style="@style/BottomImageStyle"
+                        android:tint="@color/white"
+                        android:src="@drawable/iishare" />
+
+                    <TextView
+                        style="@style/BottomSheetText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="@string/share" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llProperties"
+                    style="@style/BottomItemLL"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp">
+
+                    <ImageView
+                        style="@style/BottomImageStyle"
+                        android:src="@drawable/properties" />
+
+                    <TextView
+                        style="@style/BottomSheetText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="@string/properties" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llDelete"
+                    style="@style/BottomItemLL"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp">
+
+                    <ImageView
+                        style="@style/BottomImageStyle"
+                        android:tint="@color/accent"
+                        android:src="@drawable/iidelete" />
+
+                    <TextView
+                        style="@style/BottomSheetText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="@string/delete"
+                        android:textColor="@color/accent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</layout>
+

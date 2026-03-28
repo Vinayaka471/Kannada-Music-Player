@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">MJ Player Music Video Player</string>
+
+    <string name="app_name1">MJ Player</string>
+    <string name="app_name2">Music Video Player</string>
+
+    <string name="subscribe_KEY1" >com.price.removeads</string>
+
+    <string name="applovin_sdk_key">i_zIaxKUDNQUtcLMgalQqDhz5W9hmeuJ1cR4uDXnBnm6NZNtstgTsT5oBqgWq1k7hU8IX9AehOz2OdSwlEBl0c</string>
+
+    <string name="first_check">I understand that sharing of inappropriate content will not be tolerated.</string>
+    <string name="second_check">I confirm that Im 18 years old or above.</string>
+    <string name="clickforprivacy">"By Clicking 'Get Started'. You are agree to above Terms of Use and Privacy Policy. "</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="accept_and_continue">ACCEPT AND CONTINUE</string>
+    <string name="ad_setting">Ad Setting</string>
+    <string name="add_to_favourite">Add to favourite</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="add_to_queue">Add to queue</string>
+    <string name="album">Album</string>
+    <string name="albums">Albums</string>
+    <string name="app_description1">We care about your privacy and data security.We keep this app free by showing ads.</string>
+    <string name="app_description2">Can we continue to use your data to tailor ads for you?</string>
+    <string name="app_description3">You can change your choice anytime for App in the app settings. Our partners will collect data and use a unique identifier on your device to show you ads.</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="artist">Artist</string>
+    <string name="artists">Artists</string>
+    <string name="ascending">Ascending</string>
+    <string name="cancel">Cancel</string>
+    <string name="changeads_settings">Set personalized/non-personalized ad settings.</string>
+    <string name="confirm_pattern">Confirm your screen lock PIN, Pattern or Password</string>
+    <string name="contains">Contains</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="create">Create</string>
+    <string name="date">Date</string>
+    <string name="delete">Delete</string>
+    <string name="descending">Descending</string>
+    <string name="eq">Equalizer</string>
+    <string name="exit">Exit</string>
+    <string name="favourite">Favourite</string>
+    <string name="file">File</string>
+    <string name="file_size">File Size</string>
+    <string name="folder">Folder</string>
+    <string name="format">Format</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label">Label</string>
+    <string name="length">Length</string>
+    <string name="location">Location</string>
+    <string name="music">Music</string>
+    <string name="name">Name</string>
+    <string name="night_mode">Night</string>
+    <string name="non_personalized">No, see ads that are less relevant</string>
+    <string name="nprivacy_policy_and_permission_disclosuer">This app is governed by Creative Tech Innovation \'s Terms of Service. By continuing to use app you represent that you have read and accept the terms of Service. Privacy Policy and Permission disclosure.</string>
+    <string name="personalized">Yes, continue to see relevant ads</string>
+    <string name="playlist">Playlist</string>
+    <string name="playlist_caps">PlayList</string>
+    <string name="privacy_policy1">PRIVACY POLICY</string>
+    <string name="properties">Properties</string>
+    <string name="rating_dialog_cancel">Cancel</string>
+    <string name="rating_dialog_experience">Support us by give 5 star\10and write your review</string>
+    <string name="rating_dialog_feedback_title">Feedback</string>
+    <string name="rating_dialog_maybe_later">Maybe later</string>
+    <string name="rating_dialog_never">Never</string>
+    <string name="rating_dialog_submit">Send</string>
+    <string name="rating_dialog_suggestions">Suggest us what went wrong and we\'ll work on it!</string>
+    <string name="rationale_Storage">This app needs access to Storage</string>
+    <string name="rationale_ask">This app may not work correctly without the requested permissions.</string>
+    <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
+    <string name="rationale_phone_state">This app needs access your phone state to manage player.</string>
+    <string name="recent">Recent</string>
+    <string name="remove_from_favourite">Remove from favourite</string>
+    <string name="rename">Rename</string>
+    <string name="save">SAVE</string>
+    <string name="search_menu_title">Search</string>
+    <string name="setting">Setting</string>
+    <string name="share">Share</string>
+    <string name="size">Size</string>
+    <string name="sleep_timer">Sleep Timer</string>
+    <string name="songs">Songs</string>
+    <string name="strAdPlace">Ads Loading</string>
+    <string name="terms_disc">This app is governed by Creative Tech Innovation’s Terms of Service. By continuing to use this app you represent that you have read and accept the Terms of Service,Privacy Policy and Permission disclosure.</string>
+    <string name="terms_of_service1">TERMS OF SERVICE</string>
+    <string name="title_settings_dialog">Permissions Required</string>
+    <string name="unlock">Unlock</string>
+    <string name="user_agreement1">USER AGREEMENT</string>
+    <string name="video">Video</string>
+    <string name="ok">OK</string>
+    <string name="app_desc"><![CDATA[Play music & video file for all formats]]></string>
+
+    <string name="descsplash"><![CDATA[OX is simple, light yet powerful video & music player with all essential video & music playing features with some advance features]]></string>
+    <string name="permission_desc"><![CDATA[Please provide access storage of your device which is required for listening videos, music & all other audio file.]]></string>
+
+</resources>

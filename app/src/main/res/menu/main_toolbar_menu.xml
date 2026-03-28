@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_list" android:id="@+id/list" android:title="List" app:showAsAction="always"/>
+    <item android:icon="@drawable/ic_grid" android:id="@+id/grid" android:title="Grid" app:showAsAction="always"/>
+    <item android:icon="@drawable/ic_search" android:id="@+id/search" android:title="Search" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="never|always|collapseActionView"/>
+    <item android:icon="@drawable/ic_sort" android:id="@+id/sort" android:title="Sort by" app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_un_fav" android:id="@+id/unFav" android:title="" app:showAsAction="always"/>
+    <item android:icon="@drawable/ic_fav" android:id="@+id/fav" android:title="" app:showAsAction="always"/>
+    <item android:icon="@drawable/ic_timer" android:id="@+id/timer" android:title="" app:showAsAction="always"/>
+    <item android:icon="@drawable/ic_un_mute" android:id="@+id/volumeOn" android:title="" app:showAsAction="always"/>
+    <item android:icon="@drawable/ic_mute" android:id="@+id/volumeOff" android:title="" app:showAsAction="always"/>
+</menu>

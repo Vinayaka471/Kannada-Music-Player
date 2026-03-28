@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        android:tag="layout/fragment_settings_0">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="@color/dialogBg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:padding="@dimen/_8sdp">
+
+                    <androidx.cardview.widget.CardView style="@style/SettingIconBgCard">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/_11sdp"
+                            android:src="@drawable/iimusicplayer"
+                            android:tint="@color/white" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        style="@style/SettingText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="Show music" />
+
+                    <ImageView
+                        android:id="@+id/imgShowMusic"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:padding="@dimen/_2sdp"
+                        android:src="@drawable/iiswitch_on" />
+                </LinearLayout>
+
+                <View
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="@color/dialogBg" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_8sdp">
+
+                    <androidx.cardview.widget.CardView style="@style/SettingIconBgCard">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/_11sdp"
+                            android:src="@drawable/iihistory"
+                            app:tint="@color/white" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        style="@style/SettingText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="Show History" />
+
+                    <ImageView
+                        android:id="@+id/imgShowHistory"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:padding="@dimen/_2sdp"
+                        android:src="@drawable/iiswitch_on" />
+                </LinearLayout>
+
+                <View
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="@color/dialogBg" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:fontFamily="@font/bold"
+                    android:text="COMMUNICATION"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp" />
+
+                <LinearLayout
+                    android:id="@+id/llShare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_8sdp">
+
+                    <androidx.cardview.widget.CardView style="@style/SettingIconBgCard">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/_11sdp"
+                            android:src="@drawable/iishare"
+                            app:tint="@color/white" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        style="@style/SettingText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="Share with friends" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="@dimen/_18sdp"
+                        android:padding="@dimen/_3sdp"
+                        android:src="@drawable/bottom_back"
+                        app:tint="@color/white" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="@color/dialogBg" />
+
+                <LinearLayout
+                    android:id="@+id/llRateUs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_8sdp">
+
+                    <androidx.cardview.widget.CardView style="@style/SettingIconBgCard">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/_11sdp"
+                            android:src="@drawable/iirate"
+                            app:tint="@color/white" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        style="@style/SettingText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="Rate Us" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="@dimen/_18sdp"
+                        android:padding="@dimen/_3sdp"
+                        android:src="@drawable/bottom_back"
+                        app:tint="@color/white" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="@color/dialogBg" />
+
+                <LinearLayout
+                    android:id="@+id/llPrivacy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_8sdp">
+
+                    <androidx.cardview.widget.CardView style="@style/SettingIconBgCard">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/_11sdp"
+                            android:src="@drawable/iipolicy"
+                            app:tint="@color/white" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        style="@style/SettingText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="Privacy Policy" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="@dimen/_18sdp"
+                        android:padding="@dimen/_3sdp"
+                        android:src="@drawable/bottom_back"
+                        app:tint="@color/white" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="@color/dialogBg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/reguler_native_ad"
+                        layout="@layout/ads_layout_reguler_native"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</layout>
+

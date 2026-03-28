@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/BottomSheetMainLL"
+        android:tag="layout/bottomsheet_sorting_0">
+
+        <androidx.cardview.widget.CardView style="@style/BottomSheetMainCard">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp">
+
+                <LinearLayout
+                    android:id="@+id/llFileSize"
+                    style="@style/BottomItemLL"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp">
+
+                    <ImageView
+                        style="@style/BottomImageStyle"
+                        android:tint="@color/white"
+                        android:src="@drawable/iifilesize" />
+
+                    <TextView
+                        style="@style/SortingSheetText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="@string/file_size" />
+
+                    <ImageView
+                        android:id="@+id/imgFile"
+                        style="@style/MoreImageStyle"
+                        android:src="@drawable/unselected_radio" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llName"
+                    style="@style/BottomItemLL"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp">
+
+                    <ImageView
+                        style="@style/BottomImageStyle"
+                        android:tint="@color/white"
+                        android:src="@drawable/iifilename" />
+
+                    <TextView
+                        style="@style/SortingSheetText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="@string/name" />
+
+                    <ImageView
+                        android:id="@+id/imgName"
+                        style="@style/MoreImageStyle"
+                        android:src="@drawable/selected_radio" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llDate"
+                    style="@style/BottomItemLL"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp">
+
+                    <ImageView
+                        style="@style/BottomImageStyle"
+                        android:tint="@color/white"
+                        android:src="@drawable/iifiledate" />
+
+                    <TextView
+                        style="@style/SortingSheetText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="@string/date" />
+
+                    <ImageView
+                        android:id="@+id/imgDate"
+                        style="@style/MoreImageStyle"
+                        android:src="@drawable/unselected_radio" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llLength"
+                    style="@style/BottomItemLL"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp">
+
+                    <ImageView
+                        style="@style/BottomImageStyle"
+                        android:tint="@color/white"
+                        android:src="@drawable/iifilelength" />
+
+                    <TextView
+                        style="@style/SortingSheetText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="@string/length" />
+
+                    <ImageView
+                        android:id="@+id/imgLength"
+                        style="@style/MoreImageStyle"
+                        android:src="@drawable/unselected_radio" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:id="@+id/llAscending"
+                    style="@style/BottomItemLL"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp">
+
+                    <ImageView
+                        style="@style/BottomImageStyle"
+                        android:tint="@color/white"
+                        android:src="@drawable/iiascending" />
+
+                    <TextView
+                        style="@style/SortingSheetText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="@string/ascending" />
+
+                    <ImageView
+                        android:id="@+id/imgAsc"
+                        style="@style/MoreImageStyle"
+                        android:src="@drawable/selected_radio" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llDescending"
+                    style="@style/BottomItemLL"
+                    android:background="@drawable/ripple_bg_sqaure"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_8sdp">
+
+                    <ImageView
+                        style="@style/BottomImageStyle"
+                        android:tint="@color/white"
+                        android:src="@drawable/iidescending" />
+
+                    <TextView
+                        style="@style/SortingSheetText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:text="@string/descending" />
+
+                    <ImageView
+                        android:id="@+id/imgDesc"
+                        style="@style/MoreImageStyle"
+                        android:src="@drawable/unselected_radio" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btnCancel"
+                        style="@style/dialogButton"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        app:cardBackgroundColor="@color/cancelBtn">
+
+                        <TextView
+                            style="@style/BoldSmallTitle"
+                            android:layout_gravity="center"
+                            android:text="CANCEL" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btnOk"
+                        style="@style/dialogButton"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        app:cardBackgroundColor="@color/primarymain"
+                        app:cardElevation="0dp">
+
+                        <TextView
+                            style="@style/BoldSmallTitle"
+                            android:layout_gravity="center"
+                            android:text="@string/ok" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</layout>

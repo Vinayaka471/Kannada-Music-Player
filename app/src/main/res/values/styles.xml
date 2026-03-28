@@ -1,0 +1,314 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DialogTheme" parent="@android:style/Theme.Translucent.NoTitleBar" />
+
+    <style name="AdAttributionadmob">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_horizontal|clip_horizontal</item>
+        <item name="android:layout_gravity">left|center_horizontal</item>
+        <item name="android:background">@drawable/ad_btn_install</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">AD</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="elevation">2dp</item>
+    </style>
+
+    <style name="ThemeXPlayer" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="actionModeBackground">@color/bg</item>
+        <item name="actionModeStyle">@style/ActionModeStyle</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimary">@color/dialogBg</item>
+        <item name="colorPrimaryDark">@color/dialogBg</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorSecondary">@color/dialogBg</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="popupMenuBackground">@drawable/popup_bg</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="noActionBar" parent="ThemeXPlayer">
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="drawerArrowStyle">@style/DrawerIconStyle</item>
+    </style>
+
+    <style name="DrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="ActionModeStyle">
+        <item name="background">@color/bg</item>
+        <item name="titleTextStyle">@style/ActionModeTitleTextStyle</item>
+    </style>
+
+    <style name="ActionModeTitleTextStyle">
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MyBottomSheetDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/MYBottomSheetStyle</item>
+    </style>
+
+    <style name="MYBottomSheetStyle">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="MoreImageStyle">
+        <item name="android:padding">@dimen/_5sdp</item>
+        <item name="android:layout_width">@dimen/_25sdp</item>
+        <item name="android:layout_height">@dimen/_25sdp</item>
+    </style>
+
+    <style name="dialogButton">
+        <item name="android:layout_width">@dimen/_100sdp</item>
+        <item name="android:layout_height">@dimen/_34sdp</item>
+        <item name="cardCornerRadius">@dimen/_17sdp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="dialogTheme">
+        <item name="android:layout_marginLeft">@dimen/_10sdp</item>
+        <item name="android:layout_marginRight">@dimen/_10sdp</item>
+    </style>
+
+    <style name="ItemSubTitleStyle">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/white_off</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/regular</item>
+    </style>
+
+    <style name="ItemTitleStyle">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/semibold</item>
+    </style>
+
+    <style name="SemiBoldLarge">
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/semibold</item>
+    </style>
+
+    <style name="SettingIconBgCard">
+        <item name="android:layout_width">@dimen/_40sdp</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="cardBackgroundColor">@color/musicIconBg</item>
+        <item name="cardCornerRadius">@dimen/_11sdp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="SettingText">
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="fontFamily">@font/semibold</item>
+    </style>
+
+    <style name="BoldSmallTitle">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/bold</item>
+    </style>
+
+    <style name="BoldTitle">
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/bold</item>
+    </style>
+
+    <style name="BottomImageStyle">
+        <item name="android:padding">@dimen/_2sdp</item>
+        <item name="android:layout_width">@dimen/_25sdp</item>
+        <item name="android:layout_height">@dimen/_25sdp</item>
+    </style>
+
+    <style name="BottomItemLL">
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="BottomNavigationView">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/semibold</item>
+    </style>
+
+    <style name="BottomNavigationView.Active">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/semibold</item>
+    </style>
+
+    <style name="BottomSheetDividerCard">
+        <item name="android:layout_width">@dimen/_40sdp</item>
+        <item name="android:layout_height">@dimen/_4sdp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardCornerRadius">@dimen/_2sdp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="BottomSheetDividerLL">
+        <item name="android:padding">@dimen/_5sdp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BottomSheetMainCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardBackgroundColor">@color/dialogBg</item>
+        <item name="cardCornerRadius">@dimen/_15sdp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="BottomSheetMainLL">
+        <item name="android:padding">@dimen/_15sdp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+    <style name="BottomSheetText">
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/semibold</item>
+    </style>
+
+    <style name="PlaylistCardStyle">
+        <item name="android:layout_width">@dimen/_35sdp</item>
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="cardCornerRadius">@dimen/_15sdp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="PlaylistIconStyle">
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="PropertiesText">
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/regular</item>
+    </style>
+
+    <style name="RegularSmall">
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/regular</item>
+    </style>
+
+    <style name="TopCardsStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="cardBackgroundColor">@color/bottomBg</item>
+        <item name="cardCornerRadius">@dimen/_8sdp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="TopImageTextStyle">
+        <item name="android:textSize">@dimen/_11sdp</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/semibold</item>
+    </style>
+
+    <style name="TopImagesStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/_25sdp</item>
+        <item name="android:layout_height">@dimen/_21sdp</item>
+    </style>
+
+    <style name="TopInnerLLStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="TopLLStyle">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="SortingSheetText">
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="fontFamily">@font/semibold</item>
+    </style>
+
+    <style name="SpeedCard">
+        <item name="android:layout_width">@dimen/_35sdp</item>
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="cardBackgroundColor">@color/dialogBg</item>
+        <item name="cardCornerRadius">@dimen/_15sdp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="MyTextInputEditText">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+    <style name="MyTextInputLayout">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="boxStrokeColor">@color/white</item>
+        <item name="boxStrokeWidth">@dimen/_1sdp</item>
+    </style>
+
+    <style name="TextAppearance44">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

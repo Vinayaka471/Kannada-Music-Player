@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bottomsheet_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        android:tag="layout/bottomsheet_volume_0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgClose"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/ripple_bg"
+                android:padding="@dimen/_6sdp"
+                android:src="@drawable/cancel" />
+
+            <TextView
+                style="@style/BoldSmallTitle"
+                android:layout_centerInParent="true"
+                android:text="Volume" />
+
+            <ImageView
+                android:id="@+id/done"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/ic_done"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/imgVolume"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/ic_un_mute" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/txtVolume"
+                android:layout_toRightOf="@+id/imgVolume"
+                android:max="100"
+                android:maxHeight="@dimen/_2sdp"
+                android:progressDrawable="@drawable/progress_nightmare"
+                android:thumb="@drawable/thumb" />
+
+            <TextView
+                android:id="@+id/txtVolume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/regular"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp" />
+        </RelativeLayout>
+    </LinearLayout>
+</layout>
+

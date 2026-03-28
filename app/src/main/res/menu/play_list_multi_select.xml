@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/menu" android:id="@+id/menu" android:title="Menu" app:showAsAction="always">
+        <menu>
+            <item android:icon="@drawable/ic_background_play" android:id="@+id/bgPlay" android:title="Background Play"/>
+            <item android:icon="@drawable/ic_play_next" android:id="@+id/playNext" android:title="Play next"/>
+            <item android:icon="@drawable/ic_add_to_queue" android:id="@+id/addToQueue" android:title="Add to queue"/>
+            <item android:icon="@drawable/ic_add_to_playlist" android:id="@+id/addToPlaylist" android:title="Add to playlist"/>
+            <item android:icon="@drawable/ic_delete" android:id="@+id/delete" android:title="Delete"/>
+        </menu>
+    </item>
+</menu>
