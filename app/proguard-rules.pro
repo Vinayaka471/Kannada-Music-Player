@@ -30,6 +30,13 @@
 -keep class * extends com.google.gson.reflect.TypeToken
 
 # Models used in Gson
--keep class com.demo.musicvideoplayer.model.** { *; }
--keep class com.demo.musicvideoplayer.database.model.** { *; }
+-keep class com.kannada.musicplayer.model.** { *; }
+-keep class com.kannada.musicplayer.database.model.** { *; }
+
+# AdMob rules
+-keep class com.google.android.gms.ads.** { *; }
+-keep class com.google.ads.** { *; }
+
+# Keep your ads classes
+-keep class com.kannada.musicplayer.ads.** { *; }
 
