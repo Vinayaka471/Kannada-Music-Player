@@ -92,13 +92,8 @@ public class RecentActivity extends AppCompatActivity implements View.OnClickLis
 
         applyDisplayCutouts();
 
-        AdsCommon.InterstitialAdsOnly(this);
 
         //Reguler Banner Ads
-        RelativeLayout admob_banner = (RelativeLayout) findViewById(R.id.Admob_Banner_Frame);
-        LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
-        FrameLayout qureka = (FrameLayout) findViewById(R.id.qureka);
-        AdsCommon.RegulerBanner(this, admob_banner, adContainer, qureka);
 
 
         SetToolbar();

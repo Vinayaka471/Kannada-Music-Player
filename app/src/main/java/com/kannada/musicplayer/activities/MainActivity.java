@@ -2186,7 +2186,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 System.exit(0);
                 //Intent intent = new Intent(AppMainHomeActivity.this, AppThankYouActivity.class);
                 //intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                //AdsCommon.InterstitialAd(AppMainHomeActivity.this, intent);
             }
         });
 

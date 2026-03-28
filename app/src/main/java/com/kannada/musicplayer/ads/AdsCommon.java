@@ -1,9 +1,5 @@
 package com.kannada.musicplayer.ads;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
-import com.google.android.gms.ads.AdView;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -61,54 +57,16 @@ public class AdsCommon {
     /*Reguler Banner Ads*/
     public static void RegulerBanner(Context context, RelativeLayout admob_banner, LinearLayout adContainer, FrameLayout qureka) {
         if (admob_banner != null) {
-            admob_banner.setVisibility(View.VISIBLE);
-            AdView adView = new AdView(context);
-            adView.setAdUnitId(MyApplication.AdMob_Banner1);
-            adView.setAdSize(AdSize.BANNER);
-            
-            RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
-                    RelativeLayout.LayoutParams.WRAP_CONTENT,
-                    RelativeLayout.LayoutParams.WRAP_CONTENT
-            );
-            params.addRule(RelativeLayout.CENTER_IN_PARENT, RelativeLayout.TRUE);
-            adView.setLayoutParams(params);
-            
-            admob_banner.removeAllViews();
-            admob_banner.addView(adView);
-            AdRequest adRequest = new AdRequest.Builder().build();
-            adView.loadAd(adRequest);
+            admob_banner.setVisibility(View.GONE);
         }
     }
 
     public static void LoadAdaptiveBanner(Activity activity, FrameLayout adContainerView) {
-        AdView adView = new AdView(activity);
-        adView.setAdUnitId(MyApplication.AdMob_Adaptive_Banner);
-        adContainerView.removeAllViews();
-        adContainerView.addView(adView);
-
-        AdSize adSize = getAdSize(activity, adContainerView);
-        adView.setAdSize(adSize);
-
-        AdRequest adRequest = new AdRequest.Builder().build();
-        adView.loadAd(adRequest);
-    }
-
-    private static AdSize getAdSize(Activity activity, FrameLayout adContainerView) {
-        Display display = activity.getWindowManager().getDefaultDisplay();
-        DisplayMetrics outMetrics = new DisplayMetrics();
-        display.getMetrics(outMetrics);
-
-        float density = outMetrics.density;
-
-        float adWidthPixels = adContainerView.getWidth();
-
-        if (adWidthPixels == 0) {
-            adWidthPixels = outMetrics.widthPixels;
+        if (adContainerView != null) {
+            adContainerView.setVisibility(View.GONE);
         }
-
-        int adWidth = (int) (adWidthPixels / density);
-        return AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(activity, adWidth);
     }
+
 
 }
 

@@ -34,10 +34,6 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
 
 
         //Reguler Native Ads
-        FrameLayout admob_native_frame = (FrameLayout) root.findViewById(R.id.Admob_Native_Frame);
-        View nativeAdLayout = (View) root.findViewById(R.id.native_ad_container);
-        FrameLayout maxNative = (FrameLayout) root.findViewById(R.id.max_native_ad_layout);
-        AdsCommon.RegulerBigNative(getActivity(), admob_native_frame, nativeAdLayout, maxNative);
 
 
 

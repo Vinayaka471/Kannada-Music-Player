@@ -225,13 +225,8 @@ public class CreatePlaylistActivity extends AppCompatActivity implements View.On
 
         applyDisplayCutouts();
 
-        AdsCommon.InterstitialAdsOnly(this);
 
         //Reguler Banner Ads
-        RelativeLayout admob_banner = (RelativeLayout) findViewById(R.id.Admob_Banner_Frame);
-        LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
-        FrameLayout qureka = (FrameLayout) findViewById(R.id.qureka);
-        AdsCommon.RegulerBanner(this, admob_banner, adContainer, qureka);
 
 
         this.appDatabase = AppDatabase.getAppDatabase(this);

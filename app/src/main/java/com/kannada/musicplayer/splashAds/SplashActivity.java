@@ -132,7 +132,6 @@ public class SplashActivity extends AppCompatActivity {
     private void loadOpenApp() {
 
         //one time call & load ads
-        AdsCommon.OneTimeCall(this);
 
         if (MyApplication.getuser_onetime() == 0) {
             Intent i = new Intent(SplashActivity.this, PrivacyTermsActivity.class);

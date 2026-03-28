@@ -135,32 +135,8 @@ public class AudioPlayerActivity extends AppCompatActivity implements View.OnCli
 
         applyDisplayCutouts();
 
-        AdsCommon.InterstitialAdsOnly(this);
 
 
-        //Reguler Banner Ads
-        RelativeLayout admob_banner = (RelativeLayout) findViewById(R.id.Admob_Banner_Frame);
-        LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
-        FrameLayout qureka = (FrameLayout) findViewById(R.id.qureka);
-        AdsCommon.RegulerBanner(this, admob_banner, adContainer, qureka);
-
-        //Adaptive Banner Ads
-        RelativeLayout adaptive_banner_container = (RelativeLayout) findViewById(R.id.adaptive_banner_container);
-        FrameLayout adaptive_ad_frame = (FrameLayout) findViewById(R.id.adaptive_ad_frame);
-        ImageView btn_close_ad = (ImageView) findViewById(R.id.btn_close_ad);
-
-        if (adaptive_banner_container != null && adaptive_ad_frame != null) {
-            adaptive_banner_container.setVisibility(View.VISIBLE);
-            AdsCommon.LoadAdaptiveBanner(this, adaptive_ad_frame);
-            if (btn_close_ad != null) {
-                btn_close_ad.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        adaptive_banner_container.setVisibility(View.GONE);
-                    }
-                });
-            }
-        }
 
 
         SetToolbar();
