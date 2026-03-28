@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.fragment;
+package com.kannada.musicplayer.fragment;
 
 import io.reactivex.functions.Consumer;
 

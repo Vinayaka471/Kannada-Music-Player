@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">MJ Player Music Video Player</string>
-
-    <string name="app_name1">MJ Player</string>
-    <string name="app_name2">Music Video Player</string>
+    <string name="app_name">Kannada Music Player</string>
+    <string name="app_name1">Kannada</string>
+    <string name="app_name2">Music Player</string>
 
     <string name="subscribe_KEY1" >com.price.removeads</string>
 

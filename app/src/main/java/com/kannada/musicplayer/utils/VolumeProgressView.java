@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.utils;
+package com.kannada.musicplayer.utils;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,7 +11,7 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
-import com.demo.musicvideoplayer.R;
+import com.kannada.musicplayer.R;
 
 public class VolumeProgressView extends View {
     private int drawable1;

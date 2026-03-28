@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.adapter;
+package com.kannada.musicplayer.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,9 +7,9 @@ import android.view.ViewGroup;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.databinding.ItemPlaylistVideoBinding;
-import com.demo.musicvideoplayer.model.VideoModal;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.databinding.ItemPlaylistVideoBinding;
+import com.kannada.musicplayer.model.VideoModal;
 import java.util.List;
 
 public class BottomVideoListAdapter extends RecyclerView.Adapter<BottomVideoListAdapter.ViewHolder> {

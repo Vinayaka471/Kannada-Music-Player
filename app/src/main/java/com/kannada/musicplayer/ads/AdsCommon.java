@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.ads;
+package com.kannada.musicplayer.ads;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
@@ -13,7 +13,7 @@ import android.view.Display;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import com.demo.musicvideoplayer.R;
+import com.kannada.musicplayer.R;
 
 public class AdsCommon {
 

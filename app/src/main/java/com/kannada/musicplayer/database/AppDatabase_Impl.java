@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.database;
+package com.kannada.musicplayer.database;
 
 import androidx.exifinterface.media.ExifInterface;
 import androidx.room.DatabaseConfiguration;
@@ -12,12 +12,12 @@ import androidx.room.util.DBUtil;
 import androidx.room.util.TableInfo;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 import androidx.sqlite.db.SupportSQLiteOpenHelper;
-import com.demo.musicvideoplayer.database.dao.AudioVideoDao;
-import com.demo.musicvideoplayer.database.dao.AudioVideoDao_Impl;
-import com.demo.musicvideoplayer.database.dao.DbVersionDAO;
-import com.demo.musicvideoplayer.database.dao.DbVersionDAO_Impl;
-import com.demo.musicvideoplayer.database.dao.FolderDao;
-import com.demo.musicvideoplayer.database.dao.FolderDao_Impl;
+import com.kannada.musicplayer.database.dao.AudioVideoDao;
+import com.kannada.musicplayer.database.dao.AudioVideoDao_Impl;
+import com.kannada.musicplayer.database.dao.DbVersionDAO;
+import com.kannada.musicplayer.database.dao.DbVersionDAO_Impl;
+import com.kannada.musicplayer.database.dao.FolderDao;
+import com.kannada.musicplayer.database.dao.FolderDao_Impl;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -95,7 +95,7 @@ public final class AppDatabase_Impl extends AppDatabase {
                 TableInfo tableInfo = new TableInfo("DbVersionModel", hashMap, new HashSet(0), new HashSet(0));
                 TableInfo read = TableInfo.read(supportSQLiteDatabase2, "DbVersionModel");
                 if (!tableInfo.equals(read)) {
-                    return new RoomOpenHelper.ValidationResult(false, "DbVersionModel(com.demo.musicvideoplayer.database.model.DbVersionModel).\n Expected:\n" + tableInfo + "\n Found:\n" + read);
+                    return new RoomOpenHelper.ValidationResult(false, "DbVersionModel(com.kannada.musicplayer.database.model.DbVersionModel).\n Expected:\n" + tableInfo + "\n Found:\n" + read);
                 }
                 HashMap hashMap2 = new HashMap(2);
                 hashMap2.put("Id", new TableInfo.Column("Id", "TEXT", true, 1, (String) null, 1));
@@ -103,7 +103,7 @@ public final class AppDatabase_Impl extends AppDatabase {
                 TableInfo tableInfo2 = new TableInfo("FolderModal", hashMap2, new HashSet(0), new HashSet(0));
                 TableInfo read2 = TableInfo.read(supportSQLiteDatabase2, "FolderModal");
                 if (!tableInfo2.equals(read2)) {
-                    return new RoomOpenHelper.ValidationResult(false, "FolderModal(com.demo.musicvideoplayer.database.model.FolderModal).\n Expected:\n" + tableInfo2 + "\n Found:\n" + read2);
+                    return new RoomOpenHelper.ValidationResult(false, "FolderModal(com.kannada.musicplayer.database.model.FolderModal).\n Expected:\n" + tableInfo2 + "\n Found:\n" + read2);
                 }
                 HashMap hashMap3 = new HashMap(8);
                 hashMap3.put("Id", new TableInfo.Column("Id", "TEXT", true, 1, (String) null, 1));
@@ -119,7 +119,7 @@ public final class AppDatabase_Impl extends AppDatabase {
                 if (tableInfo3.equals(read3)) {
                     return new RoomOpenHelper.ValidationResult(true, (String) null);
                 }
-                return new RoomOpenHelper.ValidationResult(false, "AudioVideoModal(com.demo.musicvideoplayer.database.model.AudioVideoModal).\n Expected:\n" + tableInfo3 + "\n Found:\n" + read3);
+                return new RoomOpenHelper.ValidationResult(false, "AudioVideoModal(com.kannada.musicplayer.database.model.AudioVideoModal).\n Expected:\n" + tableInfo3 + "\n Found:\n" + read3);
             }
         }, "01b30cb05949ec95f820c9f4bc711fcd", "809af08c3b70f611bb3a834eec397e97")).build());
     }

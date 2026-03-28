@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.model;
+package com.kannada.musicplayer.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.activities;
+package com.kannada.musicplayer.activities;
 
 import io.reactivex.functions.Consumer;
 

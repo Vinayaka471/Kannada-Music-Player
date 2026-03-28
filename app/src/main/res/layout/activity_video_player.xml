@@ -309,7 +309,7 @@
             android:orientation="horizontal"
             android:padding="@dimen/_10sdp">
 
-            <com.demo.musicvideoplayer.utils.LightProgressView
+            <com.kannada.musicplayer.utils.LightProgressView
                 android:id="@+id/mLightPeogressView"
                 android:layout_width="@dimen/_70sdp"
                 android:layout_height="@dimen/_70sdp"
@@ -321,7 +321,7 @@
                 app:lpv_halo_width="2dp"
                 app:lpv_moon_color="@android:color/white" />
 
-            <com.demo.musicvideoplayer.utils.VolumeProgressView
+            <com.kannada.musicplayer.utils.VolumeProgressView
                 android:id="@+id/mVolumeProgressView"
                 android:layout_width="@dimen/_70sdp"
                 android:layout_height="@dimen/_70sdp"

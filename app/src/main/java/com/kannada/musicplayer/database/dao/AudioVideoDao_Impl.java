@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.database.dao;
+package com.kannada.musicplayer.database.dao;
 
 import android.database.Cursor;
 import android.os.CancellationSignal;
@@ -11,7 +11,7 @@ import androidx.room.SharedSQLiteStatement;
 import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
-import com.demo.musicvideoplayer.database.model.AudioVideoModal;
+import com.kannada.musicplayer.database.model.AudioVideoModal;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

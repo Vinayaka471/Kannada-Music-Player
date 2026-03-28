@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.service;
+package com.kannada.musicplayer.service;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -34,11 +34,11 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.internal.view.SupportMenu;
 import androidx.work.WorkRequest;
 import com.bumptech.glide.Glide;
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.activities.VideoPlayerActivity;
-import com.demo.musicvideoplayer.model.VideoModal;
-import com.demo.musicvideoplayer.utils.AppConstants;
-import com.demo.musicvideoplayer.utils.AppPref;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.activities.VideoPlayerActivity;
+import com.kannada.musicplayer.model.VideoModal;
+import com.kannada.musicplayer.utils.AppConstants;
+import com.kannada.musicplayer.utils.AppPref;
 import java.io.IOException;
 
 public class VideoService extends Service implements GestureDetector.OnGestureListener, TextureView.SurfaceTextureListener, MediaPlayer.OnPreparedListener, MediaPlayer.OnCompletionListener {

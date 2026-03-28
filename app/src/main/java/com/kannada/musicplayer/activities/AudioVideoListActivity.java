@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.activities;
+package com.kannada.musicplayer.activities;
 
 import android.annotation.SuppressLint;
 import android.content.ContentUris;
@@ -31,18 +31,18 @@ import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.adapter.AudioSelectionAdapter;
-import com.demo.musicvideoplayer.adapter.VideoSelectionAdapter;
-import com.demo.musicvideoplayer.ads.AdsCommon;
-import com.demo.musicvideoplayer.database.AppDatabase;
-import com.demo.musicvideoplayer.database.model.AudioVideoModal;
-import com.demo.musicvideoplayer.database.model.FolderModal;
-import com.demo.musicvideoplayer.databinding.ActivityAudioVideoListBinding;
-import com.demo.musicvideoplayer.model.AudioModel;
-import com.demo.musicvideoplayer.model.VideoModal;
-import com.demo.musicvideoplayer.utils.AppConstants;
-import com.demo.musicvideoplayer.utils.AppPref;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.adapter.AudioSelectionAdapter;
+import com.kannada.musicplayer.adapter.VideoSelectionAdapter;
+import com.kannada.musicplayer.ads.AdsCommon;
+import com.kannada.musicplayer.database.AppDatabase;
+import com.kannada.musicplayer.database.model.AudioVideoModal;
+import com.kannada.musicplayer.database.model.FolderModal;
+import com.kannada.musicplayer.databinding.ActivityAudioVideoListBinding;
+import com.kannada.musicplayer.model.AudioModel;
+import com.kannada.musicplayer.model.VideoModal;
+import com.kannada.musicplayer.utils.AppConstants;
+import com.kannada.musicplayer.utils.AppPref;
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;

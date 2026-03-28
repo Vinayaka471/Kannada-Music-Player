@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.scalable;
+package com.kannada.musicplayer.scalable;
 
 public enum PivotPoint {
     LEFT_TOP,

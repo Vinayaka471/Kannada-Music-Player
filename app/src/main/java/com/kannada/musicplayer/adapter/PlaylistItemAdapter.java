@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.adapter;
+package com.kannada.musicplayer.adapter;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -13,13 +13,13 @@ import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.database.AppDatabase;
-import com.demo.musicvideoplayer.database.model.AudioVideoModal;
-import com.demo.musicvideoplayer.databinding.ItemAudioVideoListBinding;
-import com.demo.musicvideoplayer.utils.AppConstants;
-import com.demo.musicvideoplayer.utils.AppPref;
-import com.demo.musicvideoplayer.utils.SwipeAndDragHelper;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.database.AppDatabase;
+import com.kannada.musicplayer.database.model.AudioVideoModal;
+import com.kannada.musicplayer.databinding.ItemAudioVideoListBinding;
+import com.kannada.musicplayer.utils.AppConstants;
+import com.kannada.musicplayer.utils.AppPref;
+import com.kannada.musicplayer.utils.SwipeAndDragHelper;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.adapter;
+package com.kannada.musicplayer.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,9 +7,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.databinding.ItemBottomPlaylistBinding;
-import com.demo.musicvideoplayer.model.CombineFolderModel;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.databinding.ItemBottomPlaylistBinding;
+import com.kannada.musicplayer.model.CombineFolderModel;
 import java.util.List;
 
 public class BottomPlaylistAdapter extends RecyclerView.Adapter<BottomPlaylistAdapter.ViewHolder> {

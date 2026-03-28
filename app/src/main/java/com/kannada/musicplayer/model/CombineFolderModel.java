@@ -1,8 +1,8 @@
-package com.demo.musicvideoplayer.model;
+package com.kannada.musicplayer.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import com.demo.musicvideoplayer.database.model.FolderModal;
+import com.kannada.musicplayer.database.model.FolderModal;
 import java.util.Objects;
 
 public class CombineFolderModel implements Parcelable {

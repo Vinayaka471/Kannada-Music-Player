@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.adapter;
+package com.kannada.musicplayer.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,9 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.databinding.ItemVideoFolderBinding;
-import com.demo.musicvideoplayer.model.VideoFolderModal;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.databinding.ItemVideoFolderBinding;
+import com.kannada.musicplayer.model.VideoFolderModal;
 import java.util.List;
 
 public class VideoFolderAdapter extends RecyclerView.Adapter<VideoFolderAdapter.ViewHolder> {

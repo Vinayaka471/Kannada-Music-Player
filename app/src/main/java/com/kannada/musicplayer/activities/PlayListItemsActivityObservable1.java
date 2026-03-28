@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.activities;
+package com.kannada.musicplayer.activities;
 
 import java.util.concurrent.Callable;
 

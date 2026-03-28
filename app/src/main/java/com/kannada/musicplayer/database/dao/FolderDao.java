@@ -1,7 +1,7 @@
-package com.demo.musicvideoplayer.database.dao;
+package com.kannada.musicplayer.database.dao;
 
-import com.demo.musicvideoplayer.database.model.FolderModal;
-import com.demo.musicvideoplayer.model.CombineFolderModel;
+import com.kannada.musicplayer.database.model.FolderModal;
+import com.kannada.musicplayer.model.CombineFolderModel;
 import java.util.List;
 
 public interface FolderDao {

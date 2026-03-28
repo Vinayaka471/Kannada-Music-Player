@@ -1,11 +1,11 @@
-package com.demo.musicvideoplayer.utils;
+package com.kannada.musicplayer.utils;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 import android.view.KeyEvent;
-import com.demo.musicvideoplayer.service.AudioService;
+import com.kannada.musicplayer.service.AudioService;
 
 public class HardButtonReceiver extends BroadcastReceiver {
 

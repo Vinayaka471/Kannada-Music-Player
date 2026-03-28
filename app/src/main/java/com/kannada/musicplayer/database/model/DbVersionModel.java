@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.database.model;
+package com.kannada.musicplayer.database.model;
 
 public class DbVersionModel {
     private int versionNumber = 0;

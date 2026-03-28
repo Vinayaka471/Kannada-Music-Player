@@ -1,6 +1,6 @@
-package com.demo.musicvideoplayer.database.dao;
+package com.kannada.musicplayer.database.dao;
 
-import com.demo.musicvideoplayer.database.model.DbVersionModel;
+import com.kannada.musicplayer.database.model.DbVersionModel;
 
 public interface DbVersionDAO {
     int delete(DbVersionModel dbVersionModel);

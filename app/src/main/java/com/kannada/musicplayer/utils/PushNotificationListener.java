@@ -1,9 +1,9 @@
-package com.demo.musicvideoplayer.utils;
+package com.kannada.musicplayer.utils;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import com.demo.musicvideoplayer.service.AudioService;
+import com.kannada.musicplayer.service.AudioService;
 
 public class PushNotificationListener extends BroadcastReceiver {
 

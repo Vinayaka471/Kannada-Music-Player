@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.fragment;
+package com.kannada.musicplayer.fragment;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -13,14 +13,14 @@ import androidx.activity.result.ActivityResult;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import com.bumptech.glide.Glide;
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.activities.MainActivity;
-import com.demo.musicvideoplayer.ads.AdsCommon;
-import com.demo.musicvideoplayer.ads.MyApplication;
-import com.demo.musicvideoplayer.databinding.FragmentSettingsBinding;
-import com.demo.musicvideoplayer.utils.AppConstants;
-import com.demo.musicvideoplayer.utils.AppPref;
-import com.demo.musicvideoplayer.utils.BetterActivityResult;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.activities.MainActivity;
+import com.kannada.musicplayer.ads.AdsCommon;
+import com.kannada.musicplayer.ads.MyApplication;
+import com.kannada.musicplayer.databinding.FragmentSettingsBinding;
+import com.kannada.musicplayer.utils.AppConstants;
+import com.kannada.musicplayer.utils.AppPref;
+import com.kannada.musicplayer.utils.BetterActivityResult;
 
 public class SettingsFragment extends Fragment implements View.OnClickListener {
     private final BetterActivityResult<Intent, ActivityResult> activityLauncher = BetterActivityResult.registerActivityForResult(this);

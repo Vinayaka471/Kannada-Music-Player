@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.Permission;
+package com.kannada.musicplayer.Permission;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -16,9 +16,9 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.activities.MainActivity;
-import com.demo.musicvideoplayer.ads.MyApplication;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.activities.MainActivity;
+import com.kannada.musicplayer.ads.MyApplication;
 
 import java.util.Map;
 

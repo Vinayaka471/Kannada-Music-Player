@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.adapter;
+package com.kannada.musicplayer.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,11 +8,11 @@ import android.view.ViewGroup;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.database.model.AudioVideoModal;
-import com.demo.musicvideoplayer.databinding.ItemBgPlaylistBinding;
-import com.demo.musicvideoplayer.utils.AppPref;
-import com.demo.musicvideoplayer.utils.SwipeAndDragHelper;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.database.model.AudioVideoModal;
+import com.kannada.musicplayer.databinding.ItemBgPlaylistBinding;
+import com.kannada.musicplayer.utils.AppPref;
+import com.kannada.musicplayer.utils.SwipeAndDragHelper;
 import java.util.List;
 
 public class BGPlaylistAdapter extends RecyclerView.Adapter<BGPlaylistAdapter.ViewHolder> implements SwipeAndDragHelper.ActionCompletionContract {

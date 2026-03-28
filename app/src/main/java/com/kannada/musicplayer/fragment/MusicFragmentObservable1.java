@@ -1,6 +1,6 @@
-package com.demo.musicvideoplayer.fragment;
+package com.kannada.musicplayer.fragment;
 
-import com.demo.musicvideoplayer.model.AudioModel;
+import com.kannada.musicplayer.model.AudioModel;
 import java.util.concurrent.Callable;
 
 public final class MusicFragmentObservable1 implements Callable {

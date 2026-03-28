@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.splashAds;
+package com.kannada.musicplayer.splashAds;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -21,11 +21,11 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.demo.musicvideoplayer.Permission.PermissionAppPageActivity;
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.activities.MainActivity;
-import com.demo.musicvideoplayer.ads.AdsCommon;
-import com.demo.musicvideoplayer.ads.MyApplication;
+import com.kannada.musicplayer.Permission.PermissionAppPageActivity;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.activities.MainActivity;
+import com.kannada.musicplayer.ads.AdsCommon;
+import com.kannada.musicplayer.ads.MyApplication;
 
 
 public class SplashActivity extends AppCompatActivity {

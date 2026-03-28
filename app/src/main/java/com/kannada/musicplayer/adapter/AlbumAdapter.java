@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.adapter;
+package com.kannada.musicplayer.adapter;
 
 import android.content.Context;
 import android.net.Uri;
@@ -11,9 +11,9 @@ import android.widget.Filterable;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.databinding.ItemAlbumBinding;
-import com.demo.musicvideoplayer.model.AlbumModel;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.databinding.ItemAlbumBinding;
+import com.kannada.musicplayer.model.AlbumModel;
 import java.util.ArrayList;
 import java.util.List;
 

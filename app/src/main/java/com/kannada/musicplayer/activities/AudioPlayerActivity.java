@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.activities;
+package com.kannada.musicplayer.activities;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -43,21 +43,21 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.adapter.BGPlaylistAdapter;
-import com.demo.musicvideoplayer.ads.AdsCommon;
-import com.demo.musicvideoplayer.ads.MyApplication;
-import com.demo.musicvideoplayer.database.model.AudioVideoModal;
-import com.demo.musicvideoplayer.databinding.ActivityAudioPlayerBinding;
-import com.demo.musicvideoplayer.databinding.BottomsheetAudioPlaylistBinding;
-import com.demo.musicvideoplayer.databinding.BottomsheetSpeedBinding;
-import com.demo.musicvideoplayer.databinding.BottomsheetTimerBinding;
-import com.demo.musicvideoplayer.model.AudioFolderModal;
-import com.demo.musicvideoplayer.service.AudioService;
-import com.demo.musicvideoplayer.utils.ActionPlaying;
-import com.demo.musicvideoplayer.utils.AppConstants;
-import com.demo.musicvideoplayer.utils.AppPref;
-import com.demo.musicvideoplayer.utils.SwipeAndDragHelper;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.adapter.BGPlaylistAdapter;
+import com.kannada.musicplayer.ads.AdsCommon;
+import com.kannada.musicplayer.ads.MyApplication;
+import com.kannada.musicplayer.database.model.AudioVideoModal;
+import com.kannada.musicplayer.databinding.ActivityAudioPlayerBinding;
+import com.kannada.musicplayer.databinding.BottomsheetAudioPlaylistBinding;
+import com.kannada.musicplayer.databinding.BottomsheetSpeedBinding;
+import com.kannada.musicplayer.databinding.BottomsheetTimerBinding;
+import com.kannada.musicplayer.model.AudioFolderModal;
+import com.kannada.musicplayer.service.AudioService;
+import com.kannada.musicplayer.utils.ActionPlaying;
+import com.kannada.musicplayer.utils.AppConstants;
+import com.kannada.musicplayer.utils.AppPref;
+import com.kannada.musicplayer.utils.SwipeAndDragHelper;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

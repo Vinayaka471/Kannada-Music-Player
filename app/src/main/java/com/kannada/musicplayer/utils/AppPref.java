@@ -1,15 +1,15 @@
-package com.demo.musicvideoplayer.utils;
+package com.kannada.musicplayer.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.demo.musicvideoplayer.ads.MyApplication;
-import com.demo.musicvideoplayer.database.model.AudioVideoModal;
-import com.demo.musicvideoplayer.model.HistoryModel;
-import com.demo.musicvideoplayer.model.VideoFolderModal;
-import com.demo.musicvideoplayer.model.VideoModal;
+import com.kannada.musicplayer.ads.MyApplication;
+import com.kannada.musicplayer.database.model.AudioVideoModal;
+import com.kannada.musicplayer.model.HistoryModel;
+import com.kannada.musicplayer.model.VideoFolderModal;
+import com.kannada.musicplayer.model.VideoModal;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;

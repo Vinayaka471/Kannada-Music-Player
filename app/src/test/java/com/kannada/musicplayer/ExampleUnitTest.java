@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer;
+package com.kannada.musicplayer;
 
 import org.junit.Test;
 

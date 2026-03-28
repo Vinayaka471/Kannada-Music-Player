@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.service;
+package com.kannada.musicplayer.service;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -37,14 +37,14 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.content.FileProvider;
 import androidx.core.internal.view.SupportMenu;
 //import androidx.media.app.NotificationCompat;
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.activities.AudioPlayerActivity;
-import com.demo.musicvideoplayer.activities.BgVideoPlayerActivity;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.activities.AudioPlayerActivity;
+import com.kannada.musicplayer.activities.BgVideoPlayerActivity;
 
-import com.demo.musicvideoplayer.database.model.AudioVideoModal;
-import com.demo.musicvideoplayer.utils.ActionPlaying;
-import com.demo.musicvideoplayer.utils.AppConstants;
-import com.demo.musicvideoplayer.utils.AppPref;
+import com.kannada.musicplayer.database.model.AudioVideoModal;
+import com.kannada.musicplayer.utils.ActionPlaying;
+import com.kannada.musicplayer.utils.AppConstants;
+import com.kannada.musicplayer.utils.AppPref;
 import java.io.File;
 
 public class AudioService extends Service implements MediaPlayer.OnCompletionListener {

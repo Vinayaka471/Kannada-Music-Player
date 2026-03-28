@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.Permission;
+package com.kannada.musicplayer.Permission;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

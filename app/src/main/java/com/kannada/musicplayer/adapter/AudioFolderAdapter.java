@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.adapter;
+package com.kannada.musicplayer.adapter;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -10,9 +10,9 @@ import android.widget.Filterable;
 import android.widget.TextView;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.databinding.ItemAudioFolderBinding;
-import com.demo.musicvideoplayer.model.AudioFolderModal;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.databinding.ItemAudioFolderBinding;
+import com.kannada.musicplayer.model.AudioFolderModal;
 import java.util.ArrayList;
 import java.util.List;
 

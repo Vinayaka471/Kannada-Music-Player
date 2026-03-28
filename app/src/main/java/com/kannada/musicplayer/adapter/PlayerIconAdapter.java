@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.adapter;
+package com.kannada.musicplayer.adapter;
 
 import android.content.Context;
 import android.net.Uri;
@@ -9,10 +9,10 @@ import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestManager;
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.databinding.ItemPlayerIconBinding;
-import com.demo.musicvideoplayer.model.IconModel;
-import com.demo.musicvideoplayer.utils.AppConstants;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.databinding.ItemPlayerIconBinding;
+import com.kannada.musicplayer.model.IconModel;
+import com.kannada.musicplayer.utils.AppConstants;
 import java.util.List;
 
 public class PlayerIconAdapter extends RecyclerView.Adapter<PlayerIconAdapter.ViewHolder> {

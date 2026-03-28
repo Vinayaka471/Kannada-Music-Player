@@ -1,6 +1,6 @@
-package com.demo.musicvideoplayer.database.dao;
+package com.kannada.musicplayer.database.dao;
 
-import com.demo.musicvideoplayer.database.model.AudioVideoModal;
+import com.kannada.musicplayer.database.model.AudioVideoModal;
 import java.util.List;
 
 public interface AudioVideoDao {

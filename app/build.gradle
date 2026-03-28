@@ -2,9 +2,9 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 36
-    namespace 'com.demo.musicvideoplayer'
+    namespace 'com.kannada.musicplayer'
     defaultConfig {
-        applicationId "com.demo.musicvideoplayer"
+        applicationId "com.kannada.musicplayer"
         minSdkVersion 23
         targetSdkVersion 36
         versionCode 1

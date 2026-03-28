@@ -1,11 +1,11 @@
-package com.demo.musicvideoplayer.database.dao;
+package com.kannada.musicplayer.database.dao;
 
 import androidx.room.EntityDeletionOrUpdateAdapter;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.SharedSQLiteStatement;
 import androidx.sqlite.db.SupportSQLiteStatement;
-import com.demo.musicvideoplayer.database.model.DbVersionModel;
+import com.kannada.musicplayer.database.model.DbVersionModel;
 import java.util.Collections;
 import java.util.List;
 

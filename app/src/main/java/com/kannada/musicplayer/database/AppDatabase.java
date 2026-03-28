@@ -1,14 +1,14 @@
-package com.demo.musicvideoplayer.database;
+package com.kannada.musicplayer.database;
 
 import android.content.Context;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
-import com.demo.musicvideoplayer.database.dao.AudioVideoDao;
-import com.demo.musicvideoplayer.database.dao.DbVersionDAO;
-import com.demo.musicvideoplayer.database.dao.FolderDao;
-import com.demo.musicvideoplayer.database.model.DbVersionModel;
-import com.demo.musicvideoplayer.utils.AppConstants;
-import com.demo.musicvideoplayer.utils.AppPref;
+import com.kannada.musicplayer.database.dao.AudioVideoDao;
+import com.kannada.musicplayer.database.dao.DbVersionDAO;
+import com.kannada.musicplayer.database.dao.FolderDao;
+import com.kannada.musicplayer.database.model.DbVersionModel;
+import com.kannada.musicplayer.utils.AppConstants;
+import com.kannada.musicplayer.utils.AppPref;
 
 public abstract class AppDatabase extends RoomDatabase {
     public static AppDatabase appDatabase;

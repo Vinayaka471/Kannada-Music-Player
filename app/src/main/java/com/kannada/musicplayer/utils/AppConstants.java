@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.utils;
+package com.kannada.musicplayer.utils;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -14,10 +14,10 @@ import android.util.Log;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.core.content.FileProvider;
 
-import com.demo.musicvideoplayer.R;
-import com.demo.musicvideoplayer.database.model.AudioVideoModal;
-import com.demo.musicvideoplayer.model.HistoryModel;
-import com.demo.musicvideoplayer.model.VideoModal;
+import com.kannada.musicplayer.R;
+import com.kannada.musicplayer.database.model.AudioVideoModal;
+import com.kannada.musicplayer.model.HistoryModel;
+import com.kannada.musicplayer.model.VideoModal;
 import java.io.File;
 import java.io.IOException;
 import java.text.DateFormat;

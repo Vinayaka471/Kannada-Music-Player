@@ -1,8 +1,8 @@
-package com.demo.musicvideoplayer.model;
+package com.kannada.musicplayer.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import com.demo.musicvideoplayer.utils.AppConstants;
+import com.kannada.musicplayer.utils.AppConstants;
 import java.util.Objects;
 
 public class VideoModal implements Parcelable {

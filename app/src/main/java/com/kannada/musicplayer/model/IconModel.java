@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.model;
+package com.kannada.musicplayer.model;
 
 public class IconModel {
     String IconName;

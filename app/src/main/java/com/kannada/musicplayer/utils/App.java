@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.utils;
+package com.kannada.musicplayer.utils;
 
 import android.app.Application;
 import android.app.NotificationChannel;

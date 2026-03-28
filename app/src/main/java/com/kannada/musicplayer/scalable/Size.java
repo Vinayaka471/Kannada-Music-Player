@@ -1,4 +1,4 @@
-package com.demo.musicvideoplayer.scalable;
+package com.kannada.musicplayer.scalable;
 
 public class Size {
     private int mHeight;

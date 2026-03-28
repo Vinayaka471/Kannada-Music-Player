@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.demo.musicvideoplayer">
+    package="com.kannada.musicplayer">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -31,7 +31,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
-        android:name="com.demo.musicvideoplayer.ads.MyApplication"
+        android:name="com.kannada.musicplayer.ads.MyApplication"
         android:requestLegacyExternalStorage="true"
         android:hardwareAccelerated="true"
         android:usesCleartextTraffic="true"
@@ -51,7 +51,7 @@
 
         <activity
             android:exported="true"
-            android:name="com.demo.musicvideoplayer.splashAds.SplashActivity"
+            android:name="com.kannada.musicplayer.splashAds.SplashActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -60,15 +60,15 @@
         </activity>
 
         <activity
-            android:name="com.demo.musicvideoplayer.splashAds.PrivacyTermsActivity"
+            android:name="com.kannada.musicplayer.splashAds.PrivacyTermsActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.demo.musicvideoplayer.Permission.PermissionAppPageActivity"
+            android:name="com.kannada.musicplayer.Permission.PermissionAppPageActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.demo.musicvideoplayer.activities.MainActivity"
+            android:name="com.kannada.musicplayer.activities.MainActivity"
             android:configChanges="uiMode"
             android:exported="false"
             android:screenOrientation="portrait"
@@ -76,18 +76,18 @@
 
 
         <activity
-            android:name="com.demo.musicvideoplayer.activities.BgVideoPlayerActivity"
+            android:name="com.kannada.musicplayer.activities.BgVideoPlayerActivity"
             android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:excludeFromRecents="true"
             android:exported="false"
             android:theme="@style/noActionBar" />
         <activity
-            android:name="com.demo.musicvideoplayer.activities.RecentActivity"
+            android:name="com.kannada.musicplayer.activities.RecentActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/noActionBar" />
         <activity
-            android:name="com.demo.musicvideoplayer.activities.VideoPlayerActivity"
+            android:name="com.kannada.musicplayer.activities.VideoPlayerActivity"
             android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:excludeFromRecents="true"
             android:exported="true"
@@ -117,12 +117,12 @@
         </activity>
 
         <activity
-            android:name="com.demo.musicvideoplayer.activities.SongsListActivity"
+            android:name="com.kannada.musicplayer.activities.SongsListActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/noActionBar" />
         <activity
-            android:name="com.demo.musicvideoplayer.activities.AudioPlayerActivity"
+            android:name="com.kannada.musicplayer.activities.AudioPlayerActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/noActionBar">
@@ -150,29 +150,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.demo.musicvideoplayer.activities.FavouriteListActivity"
+            android:name="com.kannada.musicplayer.activities.FavouriteListActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/noActionBar" />
         <activity
-            android:name="com.demo.musicvideoplayer.activities.AudioVideoListActivity"
+            android:name="com.kannada.musicplayer.activities.AudioVideoListActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/noActionBar" />
         <activity
-            android:name="com.demo.musicvideoplayer.activities.PlayListItemsActivity"
+            android:name="com.kannada.musicplayer.activities.PlayListItemsActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/noActionBar" />
         <activity
-            android:name="com.demo.musicvideoplayer.activities.CreatePlaylistActivity"
+            android:name="com.kannada.musicplayer.activities.CreatePlaylistActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/noActionBar" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.demo.musicvideoplayer.provider"
+            android:authorities="com.kannada.musicplayer.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -181,18 +181,18 @@
         </provider>
 
         <service
-            android:name="com.demo.musicvideoplayer.service.VideoService"
+            android:name="com.kannada.musicplayer.service.VideoService"
             android:enabled="true"
             android:foregroundServiceType="mediaPlayback"
             android:exported="false" />
         <service
-            android:name="com.demo.musicvideoplayer.service.AudioService"
+            android:name="com.kannada.musicplayer.service.AudioService"
             android:enabled="true"
             android:foregroundServiceType="mediaPlayback"
             android:exported="false" />
 
         <receiver
-            android:name="com.demo.musicvideoplayer.utils.CallStateBroadcast"
+            android:name="com.kannada.musicplayer.utils.CallStateBroadcast"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
